@@ -1,16 +1,23 @@
 # APCu based object library
 
-[![Latest Stable Version](https://poser.pugx.org/appserver-io/synchronizable/v/stable.png)](https://packagist.org/packages/appserver-io/synchronizable) [![Total Downloads](https://poser.pugx.org/appserver-io/synchronizable/downloads.png)](https://packagist.org/packages/appserver-io/synchronizable) [![Latest Unstable Version](https://poser.pugx.org/appserver-io/synchronizable/v/unstable.png)](https://packagist.org/packages/appserver-io/synchronizable) [![License](https://poser.pugx.org/appserver-io/synchronizable/license.png)](https://packagist.org/packages/appserver-io/synchronizable) [![Build Status](https://travis-ci.org/appserver-io/synchronizable.png)](https://travis-ci.org/appserver-io/synchronizable)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/appserver-io/synchronizable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/appserver-io/synchronizable/?branch=master)[![Code Coverage](https://scrutinizer-ci.com/g/appserver-io/synchronizable/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/appserver-io/synchronizable/?branch=master)
+
+[![Latest Stable Version](https://img.shields.io/packagist/v/appserver-io/synchronizable.svg?style=flat-square)](https://packagist.org/packages/appserver-io/synchronizable) 
+ [![Total Downloads](https://img.shields.io/packagist/dt/appserver-io/synchronizable.svg?style=flat-square)](https://packagist.org/packages/appserver-io/synchronizable)
+ [![License](https://img.shields.io/packagist/l/appserver-io/synchronizable.svg?style=flat-square)](https://packagist.org/packages/appserver-io/synchronizable)
+ [![Build Status](https://img.shields.io/travis/appserver-io/synchronizable/master.svg?style=flat-square)](http://travis-ci.org/appserver-io/synchronizable)
+ [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/appserver-io/synchronizable/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/appserver-io/synchronizable/?branch=master)
+ [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/appserver-io/synchronizable/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/appserver-io/synchronizable/?branch=master)
 
 ## Introduction
 
 Provides a multithreaded, APCu based basic object library.
 
-## Installation
+## Issues
+In order to bundle our efforts we would like to collect all issues regarding this package in [the main project repository's issue tracker](https://github.com/appserver-io/appserver/issues).
+Please reference the originating repository as the first element of the issue title e.g.:
+`[appserver-io/<ORIGINATING_REPO>] A issue I am having`
 
-You don't have to install logger, as it'll be delivered with the latest appserver.io release. If you want to install it with
-your application only, you do this by add
+## Installation
 
 ```sh
 {
